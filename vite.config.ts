@@ -7,4 +7,9 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  server: {
+    allowedHosts: [
+      'devserver-preview--signexlocal.netlify.app'
+    ]
+  }
 });
